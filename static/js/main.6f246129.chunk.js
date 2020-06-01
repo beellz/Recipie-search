@@ -1,0 +1,2 @@
+(this.webpackJsonprecipe=this.webpackJsonprecipe||[]).push([[0],{3:function(e,t,n){e.exports=n(8)},8:function(e,t,n){"use strict";n.r(t);var r=n(0),l=n.n(r),a=n(2);var c=function(){return l.a.createElement("div",null,l.a.createElement("h1",null,"hello"))};n.n(a).a.render(l.a.createElement(l.a.StrictMode,null,l.a.createElement(c,null)),document.getElementById("root"))}},[[3,1,2]]]);
+//# sourceMappingURL=main.6f246129.chunk.js.map
