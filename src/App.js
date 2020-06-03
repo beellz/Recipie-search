@@ -45,7 +45,7 @@ const getSearch = e => {
       <div className="recipie">
         {recipies.map(recipe => (
         <Recipie 
-        key={recipe.recipe.label}
+    
         title={recipe.recipe.label}
         calories={recipe.recipe.calories}
         image={recipe.recipe.image} 
