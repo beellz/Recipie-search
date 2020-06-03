@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Recipie-search/static/css/main.5bee6135.chunk.css",
-    "main.js": "/Recipie-search/static/js/main.289c9769.chunk.js",
-    "main.js.map": "/Recipie-search/static/js/main.289c9769.chunk.js.map",
+    "main.js": "/Recipie-search/static/js/main.cd7972ea.chunk.js",
+    "main.js.map": "/Recipie-search/static/js/main.cd7972ea.chunk.js.map",
     "runtime-main.js": "/Recipie-search/static/js/runtime-main.df7aee29.js",
     "runtime-main.js.map": "/Recipie-search/static/js/runtime-main.df7aee29.js.map",
     "static/js/2.c5bba814.chunk.js": "/Recipie-search/static/js/2.c5bba814.chunk.js",
     "static/js/2.c5bba814.chunk.js.map": "/Recipie-search/static/js/2.c5bba814.chunk.js.map",
     "index.html": "/Recipie-search/index.html",
-    "precache-manifest.de42d72ef5248622b3b6072a8998bb52.js": "/Recipie-search/precache-manifest.de42d72ef5248622b3b6072a8998bb52.js",
+    "precache-manifest.9313bdfcda8ebf7a2b8297caee3301a1.js": "/Recipie-search/precache-manifest.9313bdfcda8ebf7a2b8297caee3301a1.js",
     "service-worker.js": "/Recipie-search/service-worker.js",
     "static/css/main.5bee6135.chunk.css.map": "/Recipie-search/static/css/main.5bee6135.chunk.css.map",
     "static/js/2.c5bba814.chunk.js.LICENSE.txt": "/Recipie-search/static/js/2.c5bba814.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.df7aee29.js",
     "static/js/2.c5bba814.chunk.js",
     "static/css/main.5bee6135.chunk.css",
-    "static/js/main.289c9769.chunk.js"
+    "static/js/main.cd7972ea.chunk.js"
   ]
 }
