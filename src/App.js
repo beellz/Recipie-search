@@ -2,16 +2,20 @@ import React, { useEffect , useState} from "react" ;
 import Recipie from "./recipie";
 import "./App.css";
 
-
+// Main function app
 function App() {
 const appid ="4dd8354a"
 const appkey = "c44a825f9296d024c2e3d8b9088f45d3"
+
+// using states
 const[recipies , setRecipies] = useState([]);
 const [search , setSearch] = useState("");
 const [query , setQuery] = useState("chicken")
 
+// main Url
 const url =`https://api.edamam.com/search?q=${query}&app_id=${appid}&app_key=${appkey}`
 
+// using from usestates
 const getRecipie = async () => {
   const response = await fetch(url);
   const data = await response.json();
@@ -29,6 +33,9 @@ const getSearch = e => {
   setQuery(search);
 }
 
+
+// return all
+
   return (
     <div className="App">
       <form onSubmit={getSearch} className="seacrh-form">
@@ -45,10 +52,9 @@ const getSearch = e => {
         ingredients={recipe.recipe.ingredients} />
       ))}
       </div>
-
-
     </div>
   );
 }
 
 export default App;
+// exported to App
