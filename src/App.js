@@ -6,6 +6,8 @@ function App() {
 const appid ="4dd8354a"
 const appkey = "c44a825f9296d024c2e3d8b9088f45d3"
 const[recipies , setRecipies] = useState([]);
+const [search , setSearch] = useState("");
+
 const url =`https://api.edamam.com/search?q=chicken&app_id=${appid}&app_key=${appkey}`
 
 const getRecipie = async () => {
@@ -16,10 +18,15 @@ const getRecipie = async () => {
 }
 useEffect(() => {getRecipie();} , []);
 
+const updateSearch = e => {
+  setSearch(e.target.value);
+  console.log(e.target.value);
+}
+
   return (
     <div className="App">
       <form className="seacrh-form">
-        <input className="Search-bar" type="text" />
+        <input className="Search-bar" type="text" value={search} onChange={updateSearch}/>
         <button type="submit">Search</button>
       </form>
       {recipies.map(recipe => (
