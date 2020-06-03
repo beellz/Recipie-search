@@ -33,9 +33,10 @@ const getSearch = e => {
     <div className="App">
       <form onSubmit={getSearch} className="seacrh-form">
         <input className="Search-bar" type="text" value={search} onChange={updateSearch}/>
-        <button type="submit">Search</button>
+        <button className="Search-button" type="submit">Search</button>
       </form>
-      {recipies.map(recipe => (
+      <div className="recipie">
+        {recipies.map(recipe => (
         <Recipie 
         key={recipe.recipe.label}
         title={recipe.recipe.label}
@@ -43,6 +44,8 @@ const getSearch = e => {
         image={recipe.recipe.image} 
         ingredients={recipe.recipe.ingredients} />
       ))}
+      </div>
+
 
     </div>
   );

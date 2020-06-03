@@ -1,6 +1,6 @@
 .App {
    min-height: 100vh;
-   
+   background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
 }
 
 .seacrh-form {
@@ -10,7 +10,30 @@
     align-items: center;
 }
 
-.recipieAll {
+
+.Search-bar {
+    width: 50%;
+    border: none;
+    padding: 10px;
+}
+
+.Search-button {
+    background :lightcoral;
+    border: none;
+    padding : 10px 20px ;
+    color: white;
+}
+
+
+.recipie {
+display: flex;
+justify-content: space-around;
+flex-wrap:wrap;
+
+}
+
+
+ .recipieAll {
     border-radius: 10px;
     box-shadow: 0px 5px 20px rgb(71,71,71);
     display: flex;
@@ -18,5 +41,8 @@
     justify-content: space-around;
     background: white;
     align-items: center;
+    min-width: 40%;
+    min-height: 60%;
+    margin-bottom: 40px;
     
-}
+} 
